@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Waiting for cloud-init to finish."
 while [ ! -f /home/some_folder/anopther_folder/b ]; do
-        sleep 5
         echo "sleeping 5"
+        sleep 5
 done
